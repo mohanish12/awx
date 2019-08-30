@@ -1,7 +1,5 @@
 ---
-  - hosts: localhost
-    connection: local
-    user: root
+  - user: root
     gather_facts: no
     tasks:
     - shell: echo 'test'
