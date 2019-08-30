@@ -1,5 +1,6 @@
 ---
-  - user: root
+  - hosts: 172.23.0.6
+    user: root
     gather_facts: no
     tasks:
     - shell: echo 'test'
