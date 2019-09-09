@@ -1,7 +1,8 @@
 ---
   - hosts: all
+    port: 2222
     user: awx
-    gather_facts: yes
+    gather_facts: no
     tasks:
     - shell: echo 'test'
       register: foo
