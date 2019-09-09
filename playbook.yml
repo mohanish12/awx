@@ -1,7 +1,7 @@
 ---
   - hosts: all
-    user: root
-    gather_facts: no
+    user: awx
+    gather_facts: yes
     tasks:
     - shell: echo 'test'
       register: foo
